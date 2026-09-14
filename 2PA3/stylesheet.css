@@ -1,0 +1,85 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: rgb(171, 187, 218);
+}
+
+#contenedor {
+    border: 2px solid white;
+    background-color:cornflowerblue;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+section {
+    margin: 20px;
+}
+
+.imagenes {
+    width: 150px;
+    height: 150px;
+}
+
+.img1 {
+    background-color: rgb(18, 52, 52);
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+}
+
+.imagenes {
+    width:150px;
+    height:150px;
+}
+
+.img2 {
+    background-color: cadetblue;
+    position:fixed;
+    bottom:140px;
+    right:150px;
+}
+
+.imagenes {
+    width:150px;
+    height:150px;
+}
+
+.img3 {
+    position: relative;
+    bottom:40px;
+    right:50px;
+}
+
+.imagenes {
+    width:150px;
+    height:150px;
+}
+
+.img4 {
+    position: relative;
+    bottom:40px;
+    right:50px;
+}
+
+.imagenes {
+    width:150px;
+    height:150px;
+}
+
+.img5 {
+    position: relative;
+    bottom:40px;
+    right:50px;
+}
+
+.imagenes {
+    width:150px;
+    height:150px;
+}
+
+.img6 {
+    position: relative;
+    bottom:40px;
+    right:50px;
+}
