@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ALUNA. Joyería para todos tus días.">
+  <title>ALUNA | Joyería</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="pagina">
+
+    <header class="encabezado">
+      <details class="menu">
+        <summary aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </summary>
+
+        <nav class="menu-enlaces" aria-label="Menú principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#coleccion">Accesorios</a>
+          <a href="#nuevos">Nueva colección</a>
+          <a href="#marca">Nuestra marca</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </details>
+
+      <a class="logo" href="#inicio">ALUNA</a>
+
+      <a class="bolsa" href="#coleccion" aria-label="Ver colección">
+        <svg viewBox="0 0 32 36" aria-hidden="true">
+          <path d="M5 11H27L29 33H3L5 11Z"/>
+          <path d="M11 14V8A5 5 0 0 1 21 8V14"/>
+        </svg>
+      </a>
+    </header>
+
+    <main id="inicio">
+
+      <section class="hero">
+        <div class="foto foto-principal">
+          <!-- Para agregar tu foto, sustituye el span por:
+          <img src="imagenes/principal.jpg" alt="Joyería ALUNA">
+          -->
+          <span>ALUNA<br><small>everyday jewelry</small></span>
+        </div>
+
+        <h1>Piezas que hablan de ti</h1>
+
+        <a class="boton" href="#coleccion">Ver colección</a>
+      </section>
+
+      <section class="seccion" id="coleccion">
+        <h2>Recomendado para ti</h2>
+
+        <div class="productos">
+
+          <article class="tarjeta">
+            <div class="foto foto-producto">
+              <!-- <img src="imagenes/anillo.jpg" alt="Anillo Aurora"> -->
+              <span>AA</span>
+            </div>
+
+            <div class="informacion">
+              <h3>Anillo Aurora</h3>
+              <p>$1,250</p>
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <div class="foto foto-producto tono-claro">
+              <!-- <img src="imagenes/collar.jpg" alt="Collar Luna"> -->
+              <span>AL</span>
+            </div>
+
+            <div class="informacion">
+              <h3>Collar Luna</h3>
+              <p>$1,890</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="seccion" id="nuevos">
+        <h2>Nuevos lanzamientos</h2>
+
+        <div class="productos">
+
+          <article class="tarjeta">
+            <div class="foto foto-producto tono-claro">
+              <!-- <img src="imagenes/aretes.jpg" alt="Aretes Brisa"> -->
+              <span>AB</span>
+            </div>
+
+            <div class="informacion">
+              <h3>Aretes Brisa</h3>
+              <p>$780</p>
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <div class="foto foto-producto">
+              <!-- <img src="imagenes/pulsera.jpg" alt="Pulsera Eco"> -->
+              <span>PE</span>
+            </div>
+
+            <div class="informacion">
+              <h3>Pulsera Eco</h3>
+              <p>$650</p>
+            </div>
+          </article>
+
+        </div>
+
+        <aside class="promocion">
+          <p>20% en tu primera compra</p>
+        </aside>
+
+        <div class="esencia" id="marca">
+          <h2>Nuestra esencia</h2>
+          <p>
+            Joyería minimalista y elegante para acompañarte
+            todos los días. Diseños modernos y atemporales
+            que expresan quién eres.
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer" id="contacto">
+      <a class="logo" href="#inicio">ALUNA</a>
+
+      <nav aria-label="Contacto y ayuda">
+        <a href="#datos-contacto">Contacto</a>
+        <span>·</span>
+        <a href="https://www.instagram.com/"
+           target="_blank" rel="noopener noreferrer">Instagram</a>
+        <span>·</span>
+        <a href="#datos-contacto">Ayuda</a>
+      </nav>
+
+      <details class="datos-contacto" id="datos-contacto">
+        <summary>Información de contacto</summary>
+        <p>Agrega aquí el correo y las redes de ALUNA.</p>
+      </details>
+    </footer>
+
+  </div>
+</body>
+</html>
